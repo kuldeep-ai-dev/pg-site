@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vidya Residency and PG | Student PG Hostel in Silapathar</title>
+  <meta name="description" content="Vidya Residency and PG - The premier student hostel in Silapathar located within walking distance of SFS, DBHS, and Silapathar Science College. Clean rooms, Wi-Fi, home-style nutritious food, and 24/7 care.">
+  <meta name="keywords" content="Vidya Residency and PG, Student PG Silapathar, PG hostel Silapathar, Silapathar Science College PG, SFS Silapathar hostel, DBHS Silapathar hostel">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Favicon using Logo -->
+  <link rel="icon" type="image/png" href="assets/images/logo-transparent.png">
+</head>
+<body>
+
+  <!-- ================= SPLASH SCREEN ================= -->
+  <div id="splash-screen" class="splash-screen" role="dialog" aria-modal="true" aria-label="Loading Vidya Residency and PG">
+    <div class="splash-particles">
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+    </div>
+    
+    <div class="splash-content">
+      <div class="splash-badge">Premier Student Living</div>
+      
+      <div class="splash-logo-wrapper">
+        <div class="splash-glow"></div>
+        <img src="assets/images/logo-transparent.png" alt="Vidya Residency and PG Logo" class="splash-logo" id="splash-logo-img">
+      </div>
+      
+      <div class="splash-text-group">
+        <h2 class="splash-title">Vidya Residency &amp; PG</h2>
+        <p class="splash-subtitle">STUDENT PG HOSTEL &bull; SILAPATHAR</p>
+      </div>
+
+      <div class="splash-loader-bar">
+        <div class="splash-progress"></div>
+      </div>
+      
+      <p class="splash-loading-text">Preparing your comfortable stay...</p>
+      
+      <button id="skip-splash-btn" class="skip-splash-btn" type="button" aria-label="Enter site directly">
+        <span>Enter Site</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ================= TOP NOTICE BAR ================= -->
+  <div class="announcement-bar">
+    <div class="container announcement-inner">
+      <div class="announcement-item">
+        <span class="pulse-dot"></span>
+        <span>Admissions Open for New Academic Session &bull; 2, 3 &amp; 4 Sharing Available</span>
+      </div>
+      <div class="announcement-contact">
+        <a href="tel:9954507356" class="contact-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>Call: +91 9954507356</span>
+        </a>
+        <a href="https://wa.me/919954507356?text=Hello,%20I%20am%20interested%20in%20room%20availability%20at%20Vidya%20Residency%20and%20PG." target="_blank" rel="noopener" class="contact-link whatsapp-top">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.05c-1.52 0-3.01-.41-4.31-1.18l-.31-.18-3.2.84.85-3.12-.2-.32a8.04 8.04 0 0 1-1.24-4.28c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38 1.53 1.54 2.38 3.58 2.38 5.75 0 4.48-3.65 8.13-8.13 8.13zm4.46-6.09c-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.17.24-.63.8-.78.96-.14.16-.29.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.45-1.36-1.69-.14-.24-.02-.37.1-.49.11-.11.24-.29.36-.43.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.41-.41-.56-.42h-.47c-.16 0-.43.06-.65.3-.22.24-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.19 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.45-.59 1.65-1.16.21-.57.21-1.07.15-1.17-.06-.1-.23-.16-.48-.28z"/></svg>
+          <span>WhatsApp Enquiries</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar-wrapper" id="main-nav">
+    <div class="container navbar-container">
+      <a href="#hero" class="nav-brand" aria-label="Vidya Residency and PG Home">
+        <img src="assets/images/logo-transparent.png" alt="Vidya Residency and PG" class="nav-logo">
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link">About PG</a>
+        <a href="#why-choose" class="nav-link">Why Choose Us</a>
+        <a href="#location" class="nav-link">Proximity</a>
+        <a href="#rooms" class="nav-link">Room Types</a>
+        <a href="#menu" class="nav-link nav-highlight">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+          Weekly Menu
+        </a>
+        <a href="#facilities" class="nav-link">Facilities</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#menu" class="btn btn-secondary btn-sm nav-menu-cta">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path></svg>
+          <span>Mess Menu</span>
+        </a>
+        <a href="#enquiry-modal" class="btn btn-primary btn-sm open-modal-btn">Book / Inquire</a>
+        
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape-grid"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="pill-dot"></span>
+          <span>Silapathar's Trusted Student PG &amp; Hostel</span>
+        </div>
+
+        <h1 class="hero-title">
+          Clean, Quiet &amp; Focused Living for <span class="text-gradient">Student Success</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Welcome to <strong>Vidya Residency and PG</strong> — your dedicated student home in Silapathar. Designed exclusively for academic focus, offering clean sharing rooms, nutritious home-style meals, high-speed Wi-Fi, and caring supervision just minutes from your campus.
+        </p>
+
+        <!-- Distance Badges Strip -->
+        <div class="hero-proximity-strip">
+          <div class="proximity-chip">
+            <span class="chip-icon">🏫</span>
+            <div class="chip-info">
+              <strong>SFS Silapathar</strong>
+              <span>Within 200m (2 min walk)</span>
+            </div>
+          </div>
+          <div class="proximity-chip">
+            <span class="chip-icon">📚</span>
+            <div class="chip-info">
+              <strong>DBHS Silapathar</strong>
+              <span>Within 400m (4 min walk)</span>
+            </div>
+          </div>
+          <div class="proximity-chip">
+            <span class="chip-icon">🎓</span>
+            <div class="chip-info">
+              <strong>Silapathar Science College</strong>
+              <span>Within 700m (7 min walk)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="hero-cta-group">
+          <a href="#menu" class="btn btn-gold btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+            <span>Explore Weekly Menu</span>
+          </a>
+          
+          <a href="https://wa.me/919954507356?text=Hello!%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Vidya%20Residency%20and%20PG." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.05c-1.52 0-3.01-.41-4.31-1.18l-.31-.18-3.2.84.85-3.12-.2-.32a8.04 8.04 0 0 1-1.24-4.28c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38 1.53 1.54 2.38 3.58 2.38 5.75 0 4.48-3.65 8.13-8.13 8.13zm4.46-6.09c-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.17.24-.63.8-.78.96-.14.16-.29.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.45-1.36-1.69-.14-.24-.02-.37.1-.49.11-.11.24-.29.36-.43.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.41-.41-.56-.42h-.47c-.16 0-.43.06-.65.3-.22.24-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.19 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.45-.59 1.65-1.16.21-.57.21-1.07.15-1.17-.06-.1-.23-.16-.48-.28z"/></svg>
+            <span>WhatsApp Enquiry</span>
+          </a>
+          
+          <a href="tel:9954507356" class="btn btn-outline btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>Call 9954507356</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual Card -->
+      <div class="hero-card-column">
+        <div class="hero-showcase-card">
+          <div class="showcase-header">
+            <div class="showcase-brand">
+              <img src="assets/images/logo-transparent.png" alt="Vidya Residency" class="showcase-logo">
+              <div>
+                <div class="showcase-title">Student Living Redefined</div>
+                <div class="showcase-loc">Silapathar, Dhemaji, Assam</div>
+              </div>
+            </div>
+            <span class="verified-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Verified PG
+            </span>
+          </div>
+
+          <div class="showcase-features-grid">
+            <div class="sf-item">
+              <div class="sf-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/></svg>
+              </div>
+              <div class="sf-text">
+                <strong>Clean &amp; Quiet Rooms</strong>
+                <span>Organized study desks &amp; ventilation</span>
+              </div>
+            </div>
+
+            <div class="sf-item">
+              <div class="sf-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg>
+              </div>
+              <div class="sf-text">
+                <strong>Wi-Fi Facility</strong>
+                <span>High-speed Internet for studies</span>
+              </div>
+            </div>
+
+            <div class="sf-item">
+              <div class="sf-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+              </div>
+              <div class="sf-text">
+                <strong>Home-Style Food</strong>
+                <span>4 Fresh, hygienic daily meals</span>
+              </div>
+            </div>
+
+            <div class="sf-item">
+              <div class="sf-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="sf-text">
+                <strong>Care &amp; Supervision</strong>
+                <span>Safe &amp; disciplined student environment</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-footer">
+            <div class="quick-call-box">
+              <span class="call-label">Direct Hotline:</span>
+              <a href="tel:9954507356" class="call-number">9954507356</a>
+            </div>
+            <a href="#enquiry-modal" class="btn btn-primary btn-sm open-modal-btn">Apply for Admission</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">About Our PG</span>
+        <h2 class="section-title">A True Home Away From Home in Silapathar</h2>
+        <p class="section-desc">
+          Vidya Residency and PG was established with a single vision: providing students with a secure, quiet, and healthy living environment so they can dedicate themselves completely to their studies.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon-badge">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          </div>
+          <h3>Academic-First Atmosphere</h3>
+          <p>We maintain strict evening study silence hours. Every resident student gets an atmosphere that promotes concentration, group learning, and academic excellence.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon-badge">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3>Guardian-Level Care &amp; Safety</h3>
+          <p>We take student security seriously. With regulated entry/exit gate timings, dedicated warden supervision, and 24/7 CCTV vigilance, parents can have complete peace of mind.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon-badge">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+          </div>
+          <h3>Nutritious Home-Style Cooking</h3>
+          <p>No repetitive, bland mess food. Our in-house kitchen prepares warm, wholesome thalis using pure ingredients, fresh vegetables, RO water, and balanced weekly rotations.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon-badge">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </div>
+          <h3>Honest &amp; Affordable Pricing</h3>
+          <p>Specially curated to remain budget-friendly for students and families. Clear fee structures covering accommodation, all daily meals, Wi-Fi, electricity, and water.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY CHOOSE US ================= -->
+  <section class="section why-choose-section" id="why-choose">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Key Advantages</span>
+        <h2 class="section-title">Why Choose Vidya Residency and PG?</h2>
+        <p class="section-desc">
+          Compare our standards and see why students and parents consistently rate us as the premier choice in Silapathar.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-box">
+          <div class="feature-box-top">
+            <div class="feature-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/></svg>
+            </div>
+            <span class="feature-num">01</span>
+          </div>
+          <h3 class="feature-heading">Clean, Quiet &amp; Well-Maintained Rooms</h3>
+          <p class="feature-text">
+            Cleanliness is our top priority. Rooms are swept, mopped, and sanitized daily. Enjoy proper cross-ventilation, ample natural sunlight, individual wooden beds with comfortable mattresses, and personal study areas.
+          </p>
+          <ul class="feature-checklist">
+            <li>Daily housekeeping &amp; garbage management</li>
+            <li>Spacious study desk &amp; chair per student</li>
+            <li>Dust-free, calm study ambience</li>
+          </ul>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-box">
+          <div class="feature-box-top">
+            <div class="feature-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg>
+            </div>
+            <span class="feature-num">02</span>
+          </div>
+          <h3 class="feature-heading">High-Speed Wi-Fi Facility for Students</h3>
+          <p class="feature-text">
+            Uninterrupted high-speed Wi-Fi network throughout the residence. Attend online classes, download reference notes, stream educational lectures, and submit assignments without buffering or data limits.
+          </p>
+          <ul class="feature-checklist">
+            <li>Fiber internet with low latency</li>
+            <li>Coverage in all rooms &amp; study spaces</li>
+            <li>Dedicated bandwidth for educational use</li>
+          </ul>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-box">
+          <div class="feature-box-top">
+            <div class="feature-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <span class="feature-num">03</span>
+          </div>
+          <h3 class="feature-heading">2 / 3 / 4 Person Sharing Rooms</h3>
+          <p class="feature-text">
+            Choose the sharing configuration that fits your preference and budget. Whether you prefer a double sharing room with a study partner or a cost-effective 3/4 sharing setup, every room is uncluttered and spacious.
+          </p>
+          <ul class="feature-checklist">
+            <li>Personal lockable storage &amp; almirah</li>
+            <li>Proper spacing between beds</li>
+            <li>Individual electrical charging outlets</li>
+          </ul>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-box highlight-box">
+          <div class="highlight-badge">Included in Rent</div>
+          <div class="feature-box-top">
+            <div class="feature-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+            </div>
+            <span class="feature-num">04</span>
+          </div>
+          <h3 class="feature-heading">Home-Style, Nutritious Mess Food</h3>
+          <p class="feature-text">
+            Prepared fresh daily with maternal care. A balanced, protein-rich menu including hot breakfast, wholesome lunch, evening snacks with tea, and satisfying dinner. Vegetarian and non-vegetarian options served cleanly.
+          </p>
+          <ul class="feature-checklist">
+            <li>4 Fresh meals every single day</li>
+            <li>100% RO Purified Drinking Water</li>
+            <li>Special feast on weekends</li>
+          </ul>
+          <a href="#menu" class="btn btn-secondary btn-sm mt-3">View Weekly Food Menu &rarr;</a>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-box">
+          <div class="feature-box-top">
+            <div class="feature-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="feature-num">05</span>
+          </div>
+          <h3 class="feature-heading">Dedicated Care &amp; Supervision</h3>
+          <p class="feature-text">
+            Parents can stay worry-free. Our resident warden provides round-the-clock guidance, medical emergency assistance, discipline monitoring, and maintains regular communication with parents whenever needed.
+          </p>
+          <ul class="feature-checklist">
+            <li>Resident warden on site 24/7</li>
+            <li>First-aid &amp; prompt medical support</li>
+            <li>Strict gate register &amp; visitor protocols</li>
+          </ul>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-box">
+          <div class="feature-box-top">
+            <div class="feature-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <span class="feature-num">06</span>
+          </div>
+          <h3 class="feature-heading">Affordable Rates (Best Value for Students)</h3>
+          <p class="feature-text">
+            Top-tier hostel amenities at the most competitive monthly rates in Silapathar. All-inclusive pricing without surprise maintenance fees, making high-standard living accessible to every student.
+          </p>
+          <ul class="feature-checklist">
+            <li>Meals + stay + Wi-Fi combined in simple monthly fee</li>
+            <li>No hidden overhead costs or security deduction traps</li>
+            <li>Flexible payment options for parents</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROXIMITY & LOCATION ================= -->
+  <section class="section location-section" id="location">
+    <div class="container">
+      <div class="location-card-banner">
+        <div class="location-text">
+          <span class="location-badge">Prime Educational Hub Location</span>
+          <h2 class="location-title">Walk to Class in Minutes — Save Time &amp; Energy</h2>
+          <p class="location-subtitle">
+            Vidya Residency and PG is strategically situated in Silapathar within immediate walking distance of major institutions, allowing students to avoid traffic, save commute costs, and focus on preparation.
+          </p>
+
+          <div class="distances-grid">
+            <div class="distance-card">
+              <div class="dist-icon">🎓</div>
+              <div class="dist-content">
+                <span class="dist-tag">Under 2 Mins Walk</span>
+                <h4 class="dist-name">SFS Silapathar</h4>
+                <div class="dist-meter">Within <strong>200 meters</strong></div>
+                <p class="dist-desc">Saint Francis de Sales Higher Secondary School — literally across the corner.</p>
+              </div>
+            </div>
+
+            <div class="distance-card">
+              <div class="dist-icon">🏫</div>
+              <div class="dist-content">
+                <span class="dist-tag">Under 4 Mins Walk</span>
+                <h4 class="dist-name">DBHS Silapathar</h4>
+                <div class="dist-meter">Within <strong>400 meters</strong></div>
+                <p class="dist-desc">Don Bosco Higher Secondary School — quick, safe pedestrian access.</p>
+              </div>
+            </div>
+
+            <div class="distance-card">
+              <div class="dist-icon">🏛️</div>
+              <div class="dist-content">
+                <span class="dist-tag">Under 8 Mins Walk</span>
+                <h4 class="dist-name">Silapathar Science College</h4>
+                <div class="dist-meter">Within <strong>700 meters</strong></div>
+                <p class="dist-desc">Effortless daily commute for college and degree students.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-footer-note">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Silapathar, Dhemaji District, Assam &bull; Easy road connectivity &amp; quiet neighborhood</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WEEKLY MESS MENU SECTION ================= -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag menu-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+          Mess &amp; Dining
+        </span>
+        <h2 class="section-title">Explore Our Weekly Food Menu</h2>
+        <p class="section-desc">
+          We believe good health is the foundation of sharp study. Our daily meals are cooked fresh in a clean, hygienic kitchen with high-quality ingredients, seasonal vegetables, and pure RO drinking water.
+        </p>
+      </div>
+
+      <!-- Menu Meal Timing Badges -->
+      <div class="meal-timings-bar">
+        <div class="timing-badge">
+          <span class="timing-icon">🌅</span>
+          <div class="timing-meta">
+            <strong>Breakfast</strong>
+            <span>7:30 AM – 9:00 AM</span>
+          </div>
+        </div>
+        <div class="timing-badge">
+          <span class="timing-icon">🍛</span>
+          <div class="timing-meta">
+            <strong>Lunch</strong>
+            <span>12:30 PM – 2:30 PM</span>
+          </div>
+        </div>
+        <div class="timing-badge">
+          <span class="timing-icon">☕</span>
+          <div class="timing-meta">
+            <strong>Evening Tea &amp; Snacks</strong>
+            <span>5:00 PM – 6:00 PM</span>
+          </div>
+        </div>
+        <div class="timing-badge">
+          <span class="timing-icon">🍲</span>
+          <div class="timing-meta">
+            <strong>Dinner</strong>
+            <span>8:00 PM – 9:45 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Weekly Menu Controls: Day Tabs -->
+      <div class="menu-tabs-wrapper">
+        <div class="menu-day-tabs" id="menu-day-tabs" role="tablist">
+          <button class="day-tab" data-day="monday" role="tab" aria-selected="false">Monday</button>
+          <button class="day-tab" data-day="tuesday" role="tab" aria-selected="false">Tuesday</button>
+          <button class="day-tab" data-day="wednesday" role="tab" aria-selected="false">Wednesday</button>
+          <button class="day-tab" data-day="thursday" role="tab" aria-selected="false">Thursday</button>
+          <button class="day-tab" data-day="friday" role="tab" aria-selected="false">Friday</button>
+          <button class="day-tab" data-day="saturday" role="tab" aria-selected="false">Saturday</button>
+          <button class="day-tab special-tab" data-day="sunday" role="tab" aria-selected="false">
+            <span>Sunday</span>
+            <span class="tab-chip">Feast</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Active Day Menu Card Display -->
+      <div class="menu-display-container" id="menu-display-area">
+        <!-- Will be populated dynamically by JS, with full fallback in HTML -->
+        <div class="day-menu-card" id="day-menu-card">
+          <div class="day-card-header">
+            <div>
+              <span class="active-day-badge" id="current-day-label">Selected Day</span>
+              <h3 class="day-card-title" id="current-day-title">Today's Delicious Menu</h3>
+            </div>
+            <div class="food-guarantee-pills">
+              <span class="guarantee-pill">🥗 Fresh Vegetables</span>
+              <span class="guarantee-pill">💧 100% RO Water</span>
+              <span class="guarantee-pill">🍳 Veg &amp; Non-Veg Options</span>
+            </div>
+          </div>
+
+          <div class="meals-grid" id="meals-grid">
+            <!-- Meal Item 1: Breakfast -->
+            <div class="meal-slot-card breakfast-slot">
+              <div class="meal-slot-header">
+                <span class="meal-time-pill">7:30 AM - 9:00 AM</span>
+                <span class="meal-type-icon">🌅</span>
+              </div>
+              <h4 class="meal-slot-title">Breakfast</h4>
+              <p class="meal-slot-items" id="meal-breakfast-text">Hot Stuffed Aloo Paratha, Fresh Curd, Mixed Pickle &amp; Steaming Milk Tea / Black Tea</p>
+              <div class="meal-perk">Hot, energy-boosting morning start</div>
+            </div>
+
+            <!-- Meal Item 2: Lunch -->
+            <div class="meal-slot-card lunch-slot">
+              <div class="meal-slot-header">
+                <span class="meal-time-pill">12:30 PM - 2:30 PM</span>
+                <span class="meal-type-icon">🍛</span>
+              </div>
+              <h4 class="meal-slot-title">Lunch</h4>
+              <p class="meal-slot-items" id="meal-lunch-text">Steamed Rice, Yellow Dal Tadka, Seasonal Mixed Vegetable Sabji, Crispy Papad &amp; Cucumber-Tomato Salad</p>
+              <div class="meal-perk">Complete, wholesome balanced student thali</div>
+            </div>
+
+            <!-- Meal Item 3: Evening Snacks -->
+            <div class="meal-slot-card snack-slot">
+              <div class="meal-slot-header">
+                <span class="meal-time-pill">5:00 PM - 6:00 PM</span>
+                <span class="meal-type-icon">☕</span>
+              </div>
+              <h4 class="meal-slot-title">Evening Refreshment</h4>
+              <p class="meal-slot-items" id="meal-snack-text">Special Ginger Chai / Black Tea served with Fresh Crunchy Biscuits &amp; Light Evening Snack</p>
+              <div class="meal-perk">Quick study-break refresh</div>
+            </div>
+
+            <!-- Meal Item 4: Dinner -->
+            <div class="meal-slot-card dinner-slot">
+              <div class="meal-slot-header">
+                <span class="meal-time-pill">8:00 PM - 9:45 PM</span>
+                <span class="meal-type-icon">🍲</span>
+              </div>
+              <h4 class="meal-slot-title">Dinner</h4>
+              <p class="meal-slot-items" id="meal-dinner-text">Fresh Soft Tawa Rotis, Paneer Butter Masala (Veg) / Egg Curry Option, Jeera Rice &amp; Dal Fry</p>
+              <div class="meal-perk">Comforting, warm dinner for sound sleep</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full Week Table Toggle / Overview -->
+      <div class="menu-overview-toggle text-center mt-4">
+        <button id="toggle-full-table-btn" class="btn btn-outline" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line><line x1="15" y1="3" x2="15" y2="21"></line></svg>
+          <span id="full-table-btn-text">View Full 7-Day Menu Schedule</span>
+        </button>
+      </div>
+
+      <!-- Full 7-Day Table (Collapsible) -->
+      <div class="full-menu-table-wrapper" id="full-menu-table" style="display: none;">
+        <div class="table-responsive">
+          <table class="menu-table">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Breakfast (7:30 - 9:00 AM)</th>
+                <th>Lunch (12:30 - 2:30 PM)</th>
+                <th>Evening Snack (5:00 - 6:00 PM)</th>
+                <th>Dinner (8:00 - 9:45 PM)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="day-col"><strong>Monday</strong></td>
+                <td>Aloo Paratha + Curd + Tea</td>
+                <td>Steamed Rice + Dal Tadka + Seasonal Sabji + Salad</td>
+                <td>Tea + Crunchy Biscuits</td>
+                <td>Tawa Roti + Paneer/Egg Curry + Rice + Dal</td>
+              </tr>
+              <tr>
+                <td class="day-col"><strong>Tuesday</strong></td>
+                <td>Vegetable Poha + Peanuts + Tea</td>
+                <td>Steamed Rice + Rajma Masala + Aloo Gobi + Salad</td>
+                <td>Masala Chai + Roasted Namkeen</td>
+                <td>Soft Rotis + Matar Mushroom / Egg Bhurji + Dal</td>
+              </tr>
+              <tr>
+                <td class="day-col"><strong>Wednesday</strong></td>
+                <td>Puri + Chana Masala + Hot Tea</td>
+                <td>Steamed Rice + Masoor Dal + Begun Bhaja / Veggie</td>
+                <td>Ginger Tea + Evening Snack</td>
+                <td><strong>Special Chicken Curry</strong> / Shahi Paneer + Roti + Rice</td>
+              </tr>
+              <tr>
+                <td class="day-col"><strong>Thursday</strong></td>
+                <td>Veg Suji Upma / Cheela + Tea</td>
+                <td>Steamed Rice + Chana Dal + Aloo Potol Fry + Salad</td>
+                <td>Hot Tea + Rusks / Biscuits</td>
+                <td>Tawa Roti + Dal Makhani Style + Jeera Aloo + Rice</td>
+              </tr>
+              <tr>
+                <td class="day-col"><strong>Friday</strong></td>
+                <td>Idli Sambhar / Bread Toast + Tea</td>
+                <td>Steamed Rice + <strong>Fish Curry (Local)</strong> / Kadhai Paneer + Dal</td>
+                <td>Lemon Tea / Milk Tea + Namkeen</td>
+                <td>Soft Roti + Soya Badi Masala + Steamed Rice + Dal</td>
+              </tr>
+              <tr>
+                <td class="day-col"><strong>Saturday</strong></td>
+                <td>Spiced Aloo Puri + Tea</td>
+                <td>Steamed Rice + Moong Dal + Green Leafy Saag + Bhaji</td>
+                <td>Hot Masala Tea + Biscuits</td>
+                <td>Veg Fried Rice / Pulao + Dal Fry + Roti + Curry</td>
+              </tr>
+              <tr class="special-row">
+                <td class="day-col"><strong>Sunday (Feast)</strong></td>
+                <td>Chole Bhature / Stuffed Puri + Special Tea</td>
+                <td><strong>Grand Sunday Feast:</strong> Dum Biryani / Khichdi + Chicken / Paneer + Sweet</td>
+                <td>Special Filter Coffee / Tea + Samosa</td>
+                <td>Warm Rotis + Kadhai Sabzi + Dal Tadka + Rice + Kheer</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Food Standards Banner -->
+      <div class="food-standards-strip">
+        <div class="standard-item">
+          <span class="std-icon">✅</span>
+          <div>
+            <strong>100% RO Purified Water</strong>
+            <span>Safe drinking water dispensers on all floors</span>
+          </div>
+        </div>
+        <div class="standard-item">
+          <span class="std-icon">✅</span>
+          <div>
+            <strong>Hygienic Kitchen Facility</strong>
+            <span>Clean utensils, fresh daily market produce</span>
+          </div>
+        </div>
+        <div class="standard-item">
+          <span class="std-icon">✅</span>
+          <div>
+            <strong>Punctual Serving Timings</strong>
+            <span>Never miss a meal before early morning lectures</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ROOM SHARING OPTIONS ================= -->
+  <section class="section rooms-section" id="rooms">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Accommodation</span>
+        <h2 class="section-title">Room Sharing Options</h2>
+        <p class="section-desc">
+          Tailored to student requirements. Every resident is assigned their own independent study desk, cot with mattress, and lockable wardrobe.
+        </p>
+      </div>
+
+      <div class="rooms-grid">
+        <!-- 2 Sharing -->
+        <div class="room-card">
+          <div class="room-card-header">
+            <span class="room-badge">High Demand</span>
+            <div class="room-capacity-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+            </div>
+            <h3 class="room-title">2-Person Sharing</h3>
+            <p class="room-ideal">Ideal for close friends &amp; dedicated study partners</p>
+          </div>
+
+          <div class="room-specs">
+            <div class="spec-row">
+              <span class="spec-label">Occupancy:</span>
+              <span class="spec-val">2 Students per room</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Study Desk:</span>
+              <span class="spec-val">Dedicated individual desk &amp; chair</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Storage:</span>
+              <span class="spec-val">Separate lockable wardrobe</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Mess Food:</span>
+              <span class="spec-val">Included (4 meals daily)</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Wi-Fi:</span>
+              <span class="spec-val">High-Speed Unlimited</span>
+            </div>
+          </div>
+
+          <div class="room-features-list">
+            <div class="rf-pill">Maximum Quietness</div>
+            <div class="rf-pill">Large Window</div>
+            <div class="rf-pill">Personal Power Socket</div>
+          </div>
+
+          <div class="room-card-footer">
+            <a href="https://wa.me/919954507356?text=Hi,%20I%20am%20inquiring%20about%202-Person%20Sharing%20Room%20at%20Vidya%20Residency." target="_blank" rel="noopener" class="btn btn-outline btn-block">
+              Inquire 2-Sharing
+            </a>
+          </div>
+        </div>
+
+        <!-- 3 Sharing -->
+        <div class="room-card featured-room-card">
+          <div class="card-popular-tag">Most Popular</div>
+          <div class="room-card-header">
+            <span class="room-badge badge-gold">Best Value</span>
+            <div class="room-capacity-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <h3 class="room-title">3-Person Sharing</h3>
+            <p class="room-ideal">Perfect balance of social camaraderie and personal study comfort</p>
+          </div>
+
+          <div class="room-specs">
+            <div class="spec-row">
+              <span class="spec-label">Occupancy:</span>
+              <span class="spec-val">3 Students per room</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Study Desk:</span>
+              <span class="spec-val">Dedicated individual desk &amp; chair</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Storage:</span>
+              <span class="spec-val">Separate lockable wardrobe</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Mess Food:</span>
+              <span class="spec-val">Included (4 meals daily)</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Wi-Fi:</span>
+              <span class="spec-val">High-Speed Unlimited</span>
+            </div>
+          </div>
+
+          <div class="room-features-list">
+            <div class="rf-pill">Great Social Balance</div>
+            <div class="rf-pill">Spacious Layout</div>
+            <div class="rf-pill">Affordable Rate</div>
+          </div>
+
+          <div class="room-card-footer">
+            <a href="https://wa.me/919954507356?text=Hi,%20I%20am%20inquiring%20about%203-Person%20Sharing%20Room%20at%20Vidya%20Residency." target="_blank" rel="noopener" class="btn btn-primary btn-block">
+              Inquire 3-Sharing
+            </a>
+          </div>
+        </div>
+
+        <!-- 4 Sharing -->
+        <div class="room-card">
+          <div class="room-card-header">
+            <span class="room-badge">Maximum Economy</span>
+            <div class="room-capacity-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><circle cx="19" cy="11" r="2"></circle><path d="M19 17v4"></path></svg>
+            </div>
+            <h3 class="room-title">4-Person Sharing</h3>
+            <p class="room-ideal">Most budget-friendly option with all full facilities included</p>
+          </div>
+
+          <div class="room-specs">
+            <div class="spec-row">
+              <span class="spec-label">Occupancy:</span>
+              <span class="spec-val">4 Students per room</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Study Desk:</span>
+              <span class="spec-val">Dedicated individual desk &amp; chair</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Storage:</span>
+              <span class="spec-val">Individual lockable cupboard</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Mess Food:</span>
+              <span class="spec-val">Included (4 meals daily)</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Wi-Fi:</span>
+              <span class="spec-val">High-Speed Unlimited</span>
+            </div>
+          </div>
+
+          <div class="room-features-list">
+            <div class="rf-pill">Economical Living</div>
+            <div class="rf-pill">Peer Learning</div>
+            <div class="rf-pill">All Inclusions</div>
+          </div>
+
+          <div class="room-card-footer">
+            <a href="https://wa.me/919954507356?text=Hi,%20I%20am%20inquiring%20about%204-Person%20Sharing%20Room%20at%20Vidya%20Residency." target="_blank" rel="noopener" class="btn btn-outline btn-block">
+              Inquire 4-Sharing
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ALL FACILITIES GRID ================= -->
+  <section class="section facilities-section" id="facilities">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Hostel Infrastructure</span>
+        <h2 class="section-title">Complete Facilities &amp; Amenities</h2>
+        <p class="section-desc">
+          Everything required for a comfortable, safe, and academically productive stay in Silapathar.
+        </p>
+      </div>
+
+      <div class="amenities-grid">
+        <div class="amenity-item">
+          <div class="amenity-icon">📶</div>
+          <h4>Campus High-Speed Wi-Fi</h4>
+          <p>Seamless connectivity in every corner of the hostel for lectures and assignments.</p>
+        </div>
+
+        <div class="amenity-item">
+          <div class="amenity-icon">🚰</div>
+          <h4>RO Purified Drinking Water</h4>
+          <p>Multi-stage water filtration ensuring safe, chilled and normal drinking water 24/7.</p>
+        </div>
+
+        <div class="amenity-item">
+          <div class="amenity-icon">🛡️</div>
+          <h4>24/7 CCTV &amp; Security</h4>
+          <p>Security cameras in common corridors, entrance gate, and compound area.</p>
+        </div>
+
+        <div class="amenity-item">
+          <div class="amenity-icon">⚡</div>
+          <h4>Inverter Power Backup</h4>
+          <p>Uninterrupted lighting and fan support during power cuts so study isn't disrupted.</p>
+        </div>
+
+        <div class="amenity-item">
+          <div class="amenity-icon">🧹</div>
+          <h4>Daily Housekeeping</h4>
+          <p>Regular sweeping, mopping, and bathroom cleaning by dedicated staff.</p>
+        </div>
+
+        <div class="amenity-item">
+          <div class="amenity-icon">🪑</div>
+          <h4>Personal Study Setups</h4>
+          <p>Every student is provided an individual study table, ergonomic chair &amp; study light provision.</p>
+        </div>
+
+        <div class="amenity-item">
+          <div class="amenity-icon">🔒</div>
+          <h4>Private Lockable Storage</h4>
+          <p>Individual wardrobes and under-bed storage for personal belongings and textbooks.</p>
+        </div>
+
+        <div class="amenity-item">
+          <div class="amenity-icon">👨‍🏫</div>
+          <h4>Resident Warden Guidance</h4>
+          <p>Disciplined, caring hostel in-charge to assist students and maintain decorum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HOSTEL SCHEDULE & RULES ================= -->
+  <section class="section rules-section">
+    <div class="container">
+      <div class="rules-card-container">
+        <div class="rules-column">
+          <span class="section-tag">Discipline &amp; Routine</span>
+          <h3 class="rules-title">Daily Hostel Routine</h3>
+          <p class="rules-desc">A healthy schedule helps students maintain good health, punctual attendance, and high academic performance.</p>
+
+          <div class="schedule-timeline">
+            <div class="timeline-row">
+              <span class="tl-time">06:00 AM – 07:30 AM</span>
+              <div class="tl-content">
+                <strong>Morning Routine &amp; Fresh Air</strong>
+                <span>Wake-up, freshening up, morning revision</span>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <span class="tl-time">07:30 AM – 09:00 AM</span>
+              <div class="tl-content">
+                <strong>Nutritious Hot Breakfast</strong>
+                <span>Served in mess before departing for classes</span>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <span class="tl-time">09:00 AM – 03:30 PM</span>
+              <div class="tl-content">
+                <strong>Classes at SFS / DBHS / Science College</strong>
+                <span>(Lunch served 12:30 PM – 2:30 PM for lunch breaks)</span>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <span class="tl-time">05:00 PM – 06:00 PM</span>
+              <div class="tl-content">
+                <strong>Evening Tea &amp; Recreation</strong>
+                <span>Snacks, relaxation, and conversation</span>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <span class="tl-time">07:30 PM</span>
+              <div class="tl-content highlight-tl">
+                <strong>Gate Closing Time</strong>
+                <span>Strict entry deadline for student safety &amp; attendance register</span>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <span class="tl-time">08:00 PM – 09:45 PM</span>
+              <div class="tl-content">
+                <strong>Dinner Service</strong>
+                <span>Wholesome home-style dinner in the dining hall</span>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <span class="tl-time">10:00 PM Onwards</span>
+              <div class="tl-content">
+                <strong>Quiet Study Hours</strong>
+                <span>Strict silence in corridors; focus on homework &amp; exam prep</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rules-column guidelines-box">
+          <span class="section-tag">Safety Guidelines</span>
+          <h3 class="rules-title">Hostel Code of Conduct</h3>
+          <div class="guideline-card">
+            <span class="g-icon">🚭</span>
+            <div>
+              <strong>Strictly Substance-Free Campus</strong>
+              <p>Smoking, alcohol, tobacco, or prohibited items are strictly forbidden with zero tolerance.</p>
+            </div>
+          </div>
+
+          <div class="guideline-card">
+            <span class="g-icon">🤫</span>
+            <div>
+              <strong>Mandatory Silence During Study Hours</strong>
+              <p>Loud music or corridor disturbances are not permitted after 10:00 PM to respect fellow students.</p>
+            </div>
+          </div>
+
+          <div class="guideline-card">
+            <span class="g-icon">📝</span>
+            <div>
+              <strong>Outing &amp; Leave Permissions</strong>
+              <p>Night outs or hometown visits require prior intimation and written/telephonic consent from registered parents.</p>
+            </div>
+          </div>
+
+          <div class="guideline-card">
+            <span class="g-icon">🤝</span>
+            <div>
+              <strong>Mutual Respect &amp; Brotherhood</strong>
+              <p>Ragging of any kind is strictly prohibited under legal guidelines. Friendly, collaborative culture.</p>
+            </div>
+          </div>
+
+          <div class="admission-callout mt-4">
+            <h4>Ready to visit or join?</h4>
+            <p>Rooms are allocated on a first-come, first-served basis for the academic session.</p>
+            <a href="tel:9954507356" class="btn btn-gold btn-sm">Call Warden: 9954507356</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FREQUENTLY ASKED QUESTIONS ================= -->
+  <section class="section faq-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Common questions asked by prospective students and parents.</p>
+      </div>
+
+      <div class="faq-accordion" id="faq-accordion">
+        <div class="faq-item active">
+          <button class="faq-question" type="button" aria-expanded="true">
+            <span>Are all daily meals included in the monthly charges?</span>
+            <span class="faq-toggle-icon">&minus;</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! All four daily meals — Breakfast, Lunch, Evening Tea with snacks, and Dinner — are completely covered in the all-inclusive fee. On Sundays, a special feast meal is served as well.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>How close is the PG to SFS, DBHS, and Silapathar Science College?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Vidya Residency and PG is situated within 200 meters of SFS Silapathar (2 min walk), within 400 meters of DBHS Silapathar (4 min walk), and within 700 meters of Silapathar Science College (7 min walk). Students never need auto or rickshaw transport to reach class.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>What furnishings are provided inside the rooms?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Each student gets an individual bed with a comfortable mattress, a personal study desk and chair, an individual lockable storage wardrobe/cupboard, electrical outlets for mobile/laptop charging, and proper room fans and lights.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>What are the safety and security provisions for students?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We maintain strict 24/7 CCTV surveillance at entry gates and corridors, an active register for entry/exit with a mandatory 7:30 PM gate closure, and a resident warden who resides on premises to attend to medical needs and student care.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>How can I book a bed or visit the PG?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>You can directly call or message us on WhatsApp at <strong>9954507356</strong>. You are also welcome to visit the premises with your parents during daytime hours to inspect the rooms, kitchen, and facilities in person.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT & ENQUIRY SECTION ================= -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card-wrapper">
+        <div class="contact-info-col">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="contact-heading">Visit or Contact Vidya Residency and PG</h2>
+          <p class="contact-sub">
+            We are eager to welcome you. Contact us for room availability, fee details, or to arrange a campus visit for you and your parents.
+          </p>
+
+          <div class="contact-direct-cards">
+            <a href="tel:9954507356" class="direct-c-box">
+              <div class="c-icon phone-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <span class="c-label">Direct Phone Call</span>
+                <strong class="c-val">+91 9954507356</strong>
+                <span class="c-sub">Available 8:00 AM – 9:00 PM</span>
+              </div>
+            </a>
+
+            <a href="https://wa.me/919954507356?text=Hi!%20I%20am%20interested%20in%20room%20availability%20at%20Vidya%20Residency%20and%20PG." target="_blank" rel="noopener" class="direct-c-box whatsapp-box">
+              <div class="c-icon wa-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.05c-1.52 0-3.01-.41-4.31-1.18l-.31-.18-3.2.84.85-3.12-.2-.32a8.04 8.04 0 0 1-1.24-4.28c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38 1.53 1.54 2.38 3.58 2.38 5.75 0 4.48-3.65 8.13-8.13 8.13zm4.46-6.09c-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.17.24-.63.8-.78.96-.14.16-.29.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.45-1.36-1.69-.14-.24-.02-.37.1-.49.11-.11.24-.29.36-.43.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.41-.41-.56-.42h-.47c-.16 0-.43.06-.65.3-.22.24-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.19 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.45-.59 1.65-1.16.21-.57.21-1.07.15-1.17-.06-.1-.23-.16-.48-.28z"/></svg>
+              </div>
+              <div>
+                <span class="c-label">Instant WhatsApp Chat</span>
+                <strong class="c-val">+91 9954507356</strong>
+                <span class="c-sub">Fast replies for parents &amp; students</span>
+              </div>
+            </a>
+
+            <div class="direct-c-box address-box">
+              <div class="c-icon pin-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <span class="c-label">Location Address</span>
+                <strong class="c-val">Silapathar, Dhemaji, Assam</strong>
+                <span class="c-sub">Near SFS School &bull; DBHS &bull; Science College</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Enquiry Form -->
+        <div class="contact-form-col">
+          <div class="enquiry-card">
+            <h3 class="form-title">Send Admission Enquiry</h3>
+            <p class="form-sub">Fill out the details below to receive instant information via WhatsApp or phone call.</p>
+            
+            <form id="landing-enquiry-form" class="enquiry-form">
+              <div class="form-group">
+                <label for="student-name">Student Full Name *</label>
+                <input type="text" id="student-name" name="student_name" placeholder="e.g. Rahul Sharma" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="student-phone">Phone / WhatsApp Number *</label>
+                  <input type="tel" id="student-phone" name="student_phone" placeholder="e.g. 9876543210" required>
+                </div>
+                <div class="form-group">
+                  <label for="student-institution">School / College *</label>
+                  <select id="student-institution" name="student_institution" required>
+                    <option value="" disabled selected>Select Institution</option>
+                    <option value="SFS Silapathar">SFS Silapathar</option>
+                    <option value="DBHS Silapathar">DBHS Silapathar</option>
+                    <option value="Silapathar Science College">Silapathar Science College</option>
+                    <option value="Other Institution">Other School / College</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="room-preference">Preferred Sharing *</label>
+                  <select id="room-preference" name="room_preference" required>
+                    <option value="2-Person Sharing">2-Person Sharing Room</option>
+                    <option value="3-Person Sharing" selected>3-Person Sharing Room</option>
+                    <option value="4-Person Sharing">4-Person Sharing Room</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="move-in-date">Expected Joining Month</label>
+                  <input type="text" id="move-in-date" name="move_in_date" placeholder="e.g. Immediately / Next Month">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="enquiry-notes">Any questions or special requests?</label>
+                <textarea id="enquiry-notes" name="enquiry_notes" rows="2" placeholder="Tell us if you need veg food, specific sharing, or room visit timings..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-gold btn-block btn-lg">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.05c-1.52 0-3.01-.41-4.31-1.18l-.31-.18-3.2.84.85-3.12-.2-.32a8.04 8.04 0 0 1-1.24-4.28c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38 1.53 1.54 2.38 3.58 2.38 5.75 0 4.48-3.65 8.13-8.13 8.13zm4.46-6.09c-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.17.24-.63.8-.78.96-.14.16-.29.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.45-1.36-1.69-.14-.24-.02-.37.1-.49.11-.11.24-.29.36-.43.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.41-.41-.56-.42h-.47c-.16 0-.43.06-.65.3-.22.24-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.19 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.45-.59 1.65-1.16.21-.57.21-1.07.15-1.17-.06-.1-.23-.16-.48-.28z"/></svg>
+                <span>Submit &amp; Send to WhatsApp</span>
+              </button>
+
+              <p class="form-disclaimer text-center">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                Your phone number is strictly kept confidential.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand-col">
+        <a href="#hero" class="footer-logo-link">
+          <img src="assets/images/logo-transparent.png" alt="Vidya Residency and PG" class="footer-logo">
+        </a>
+        <p class="footer-bio">
+          Silapathar's trusted student PG hostel providing disciplined, comfortable, and affordable accommodation with home-style meals for students of SFS, DBHS, and Silapathar Science College.
+        </p>
+        <div class="footer-badges">
+          <span class="f-badge">Clean &amp; Quiet</span>
+          <span class="f-badge">Nutritious Food</span>
+          <span class="f-badge">24/7 Care</span>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About Our PG</a></li>
+          <li><a href="#why-choose">Why Choose Us</a></li>
+          <li><a href="#location">Nearby Institutions</a></li>
+          <li><a href="#menu">Weekly Mess Menu</a></li>
+          <li><a href="#rooms">Room Sharing Options</a></li>
+          <li><a href="#facilities">Hostel Facilities</a></li>
+          <li><a href="#contact">Contact &amp; Location</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-location-col">
+        <h4 class="footer-title">Nearby Hubs</h4>
+        <ul class="footer-links">
+          <li><strong>SFS Silapathar:</strong> Within 200m</li>
+          <li><strong>DBHS Silapathar:</strong> Within 400m</li>
+          <li><strong>Silapathar Science College:</strong> Within 700m</li>
+        </ul>
+
+        <div class="footer-cta-box mt-3">
+          <div class="f-cta-label">Direct Enquiry:</div>
+          <a href="tel:9954507356" class="f-cta-phone">📞 9954507356</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="current-year">2026</span> Vidya Residency and PG &bull; Student PG Hostel, Silapathar. All rights reserved.</p>
+        <button id="replay-splash-btn" class="replay-splash-btn" type="button">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+          Replay Splash Screen
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING ACTION BUTTONS ================= -->
+  <div class="floating-actions" id="floating-actions">
+    <!-- Call Button -->
+    <a href="tel:9954507356" class="floating-btn call-float" aria-label="Call Vidya Residency">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span class="float-tooltip">Call 9954507356</span>
+    </a>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919954507356?text=Hello,%20I%20am%20interested%20in%20room%20availability%20at%20Vidya%20Residency%20and%20PG." target="_blank" rel="noopener" class="floating-btn wa-float" aria-label="WhatsApp Vidya Residency">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.05c-1.52 0-3.01-.41-4.31-1.18l-.31-.18-3.2.84.85-3.12-.2-.32a8.04 8.04 0 0 1-1.24-4.28c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38 1.53 1.54 2.38 3.58 2.38 5.75 0 4.48-3.65 8.13-8.13 8.13zm4.46-6.09c-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.17.24-.63.8-.78.96-.14.16-.29.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.45-1.36-1.69-.14-.24-.02-.37.1-.49.11-.11.24-.29.36-.43.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.41-.41-.56-.42h-.47c-.16 0-.43.06-.65.3-.22.24-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.19 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.45-.59 1.65-1.16.21-.57.21-1.07.15-1.17-.06-.1-.23-.16-.48-.28z"/></svg>
+      <span class="float-tooltip">WhatsApp Us</span>
+    </a>
+  </div>
+
+  <!-- ================= INQUIRY MODAL ================= -->
+  <div class="modal-overlay" id="enquiry-modal" role="dialog" aria-modal="true" aria-labelledby="modal-heading" style="display: none;">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-tag">Quick Admission Inquiry</span>
+        <h3 id="modal-heading" class="modal-title">Book a Bed / Inquire</h3>
+        <p class="modal-desc">Send your enquiry directly to Vidya Residency administration on WhatsApp or telephone.</p>
+      </div>
+
+      <form id="modal-form" class="modal-form-body">
+        <div class="form-group">
+          <label for="m-name">Student Full Name *</label>
+          <input type="text" id="m-name" required placeholder="Student Name">
+        </div>
+
+        <div class="form-group">
+          <label for="m-phone">Contact Phone Number *</label>
+          <input type="tel" id="m-phone" required placeholder="Parent or Student Phone">
+        </div>
+
+        <div class="form-group">
+          <label for="m-school">School / College *</label>
+          <select id="m-school" required>
+            <option value="SFS Silapathar">SFS Silapathar</option>
+            <option value="DBHS Silapathar">DBHS Silapathar</option>
+            <option value="Silapathar Science College">Silapathar Science College</option>
+            <option value="Other">Other College/School</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="m-room">Preferred Room Type *</label>
+          <select id="m-room" required>
+            <option value="2-Person Sharing">2-Person Sharing Room</option>
+            <option value="3-Person Sharing" selected>3-Person Sharing Room</option>
+            <option value="4-Person Sharing">4-Person Sharing Room</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-block btn-lg mt-3">
+          <span>Connect via WhatsApp</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
